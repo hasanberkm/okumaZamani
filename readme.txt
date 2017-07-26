@@ -1,14 +1,14 @@
-TR: zamanHesapla fonksiyonu bir metnin okunma süresini bulmaya yarar.
+TR: zamanHesapla fonksiyonu bir metnin okunma sÃ¼resini bulmaya yarar.
 EN: The zamanHesapla function calculates the duration of any text.
 
-Kullanýmý :
+Kullanimi:
 <?php
 	include('zamanHesapla.php'); 
-	zamanHesapla($hesaplanacakVeri = " ", $SaniyedeOkunanKelimeSayýsý);
+	zamanHesapla($hesaplanacak_Veri = " ", $Saniyede_Okunan_Kelime_Sayisi);
 ?>
 
 Use of:
 <?php
 	include('zamanHesapla.php');
-	zamanHesapla($calculatesData = " ", $WordCountPerSecond.);
+	zamanHesapla($calculates_Data = " ", $Word_Count_Per_Second.);
 ?>
