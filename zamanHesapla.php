@@ -1,7 +1,7 @@
 <?php
 	function zamanHesapla($veri = "", $saniyelikKelime = 2)
 	{
-		$kelimeSayisi = round(count(explode(" ", $veri))); //Content Değişkenindeki İçeriğin Kelime Sayısını Bulup Tutar.
+		$kelimeSayisi = round(count(explode(" ", $veri))); //Veri Değişkenindeki İçeriğin Kelime Sayısını Bulup Tutar.
 		$okumaZamani = ceil(++$kelimeSayisi / $saniyelikKelime); //Okuma Süresini Hesaplayıp Tutar.
 		
 		//Eğer $readingTime 60 Saniyeden Az İse (Yani 1 Dakikadan Az İse) Süreyi Saniye Cinsinden Bastırır.
